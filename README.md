@@ -4,7 +4,7 @@ This repository contains 3D-printable models, PCB design files and code needed t
 
 ![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
 
-There are eight major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
+There are nine major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
 
 version | case dimensions (mm) | compatibility | add-on board | onboard chip | SMT assembly required | firmware
 ------- | --------------- | ------------- | ------------ | ------------ | --------------------- | --------
@@ -16,5 +16,6 @@ version | case dimensions (mm) | compatibility | add-on board | onboard chip | S
 [rev6](hardware-rev6) | 218x126x10 | PC, Switch | - | CH552T | yes | [CH552](firmware-ch552)
 [rev7](hardware-rev7) | 218x130x11 | PC | [Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) | - | no | [slimbox-bt](https://github.com/jfedor2/slimbox-bt)
 [rev8](hardware-rev8) | 218x130x11 | PC, PS4\*, PS5\*, Switch | - | RP2350 | yes | [HID Remapper](https://github.com/jfedor2/hid-remapper)
+[rev9](hardware-rev9) | 218x130x11 | PC | - | SAMD21 | yes | [CircuitPython](firmware-circuitpython)
 
 \* - with caveats
