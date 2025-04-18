@@ -8,7 +8,7 @@ There are two variants of the case, version A uses flaps for the option buttons,
 
 To make one you will need:
 
-* [3D printed case parts](3d-printed-case) - top and bottom
+* [3D printed](3d-printed-case) or [CNC machined](cnc-machined-case) case parts - top and bottom
 * [the PCB](pcb)
 * 12x Kailh low profile (choc v1) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
@@ -24,6 +24,8 @@ To make one you will need:
 * a soldering iron
 
 I printed the case at 0.20mm layer height. The top part should be printed upside-down, the bottom part should be printed as-is. They don't require supports.
+
+The CNC machined case can be ordered at [JLCCNC](https://jlccnc.com/). I used 6061 aluminum. There are various surface finish options like bead blasting and anodizing that you can select. Be sure to select the "threads" option for the top part and upload the PDF file. The rest is the same as the B variant of the 3D printed case.
 
 I used [JLCPCB](https://jlcpcb.com/) to make the PCB and assemble the SMD parts. The [included files](pcb) can be used with JLCPCB directly. If you want to use some other service, check the file formats that they expect. When ordering from JLCPCB, upload the Gerber zip, leave all the settings at default (you can choose the PCB color), then enable "PCB Assembly" and upload the BOM and CPL files in the next step. PCB thickness should be 1.6mm.
 
